@@ -1,0 +1,53 @@
+.social-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .instagram {
+    background-color: #e4405f;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 40px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .icon {
+      font-size: 30px;
+      padding: 6px;
+    }
+  }
+  
+
+  /* src/App.css */
+
+/* src/components/SocialIcons.css */
+
+  
+  
+  
+  
+  
