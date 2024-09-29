@@ -7,7 +7,9 @@ function App() {
     <div className="App">
 
       <SocialIcons />
+
     </div>
+    
   );
 }
 
